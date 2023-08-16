@@ -18,11 +18,11 @@ for (let n = 0; n < atletasFinalistas; n++) {
     marcas = 2;
     for (let f = 0; f < marcas; f++) {
         marcaSS = 10;
-    }
-    if (marcaSS > record) {
-        record = marcaSS;
-        nombreM = nombre;
-        pago = "SI";
+        if (marcaSS > record) {
+            record = marcaSS;
+            nombreM = nombre;
+            pago = "SI";
+        }
     }
 }
 console.log(`La ganadora de la medalla de oro fue ${namess} con una marca de salto de ${record} y ${pago} se le da el pago de 500 Millones`);
