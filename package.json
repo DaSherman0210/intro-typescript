@@ -1,0 +1,15 @@
+{
+  "name": "intro-typescript",
+  "version": "1.0.0",
+  "description": "¡Bienvenido al repositorio de clases de TypeScript! Aquí encontrarás una colección de clases, ejemplos y recursos relacionados con el lenguaje de programación TypeScript. ¡Aprenderemos mientras nos divertimos! 💡",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
